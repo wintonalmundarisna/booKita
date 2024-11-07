@@ -1,5 +1,5 @@
 # booKita
-Membuat aplikasi web tentang buku dengan menggunakan laravel 10 dan bootstrap 5
+Membuat aplikasi web tentang CRUD buku dan jual beli e-book dengan menggunakan laravel 10, bootstrap 5 dan mysql
 
 Cara ambil projek :
 1. Buka vs code
