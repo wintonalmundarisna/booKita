@@ -33,30 +33,3 @@ Ukuran responsive
 Tampilan Desktop: 1024×768 hingga 1920×1080
 Tampilan Tablet: 601 × 962 hingga 1280 × 800
 Tampilan Seluler: 360 × 640 hingga 414 × 896
-
-
-
- // $rules = [
-        //     'judul' => 'required|max:200|unique:bukus',
-        //     'nama' => 'required|max:200',
-        //     'kategori' => 'required',
-        //     'isi' => 'required',
-        //     'gambar' => 'image|file',
-        // ];
-
-        // $validatedData = $request->validate($rules);
-        
-        // $validatedData['user_id'] = auth()->user()->id;
-        // $validatedData['judul'] = Str::limit(strip_tags($request->judul), 200);
-        // $validatedData['judul'] = preg_replace('#</?(div|/).*?>#is', '', $request->judul);
-        // $validatedData['isi'] = preg_replace('#</?div.*?>#is', '', $request->isi);
-        // $data = Buku::create($validatedData);
-        
-        // if ($image = $request->file('gambar')) {
-        //     $fileName = pathinfo($image->getClientOriginalName(), PATHINFO_FILENAME);
-        //     $imageName = $fileName . "-" . time() . "." . $image->getClientOriginalExtension();
-        //     $uploadPath = 'img/';
-        //     $image->move($uploadPath, $imageName);
-        //     $data->gambar = $imageName;
-        //     $data->save();
-        // }
